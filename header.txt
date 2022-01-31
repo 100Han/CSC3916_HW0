@@ -1,0 +1,41 @@
+
+User-Agent: PostmanRuntime/7.29.0
+Accept: */*
+Postman-Token: b94a9ea0-dfca-4b97-b549-8ce7421223f8
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Response Headers
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 31 Jan 2022 03:02:49 GMT
+Server: ESF
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+Response Body
+The console only shows bodies smaller than 10 KB inline. To view the complete body, inspect it by clicking Open.
+----------------------------------------------------------------------------------------------------------------------
+Accept */* simply means that any data of whatever mimetype is accepted and the server may chooser what to return to the requesting client.
+Postman-Token is a test string, included the request header.
+The Host is www.googleapis.com
+The Accept-Encoding: gzip, delfate. The server responds with the scheme used, indicated by the Content-Encoding response lheader.
+Connection: keep alive is an instruction that allows a single TCP connection to remain open for multiple HTTP requests/response.
+Response Headers is an HTTP header that can be used n an HTTP response and that doesn't relate to the content of the message.
+Content-Type: application/json ; charset=UTF-8 is the request body format of JSON.
+Vary: Origin is the vary HTTP response header describes the parts of the request message aside from the method and URL that influenced
+ the content of the response it occurs in.
+ Vary: Referer is the a request-type header that identifies the address of the previous web page, which is linked to the current web.
+ Content encoding is mainly used to compress the message data without losing information about the origin media type.
+ The Date is GMT (Greenwich Mean Time) zone.
+ Server :ESF stands for "Enterprise Server Farm".
+ Cache-Control: Private indicate that a resource is user specific-it can still be cached, bout only a client device.
+X-XSS protection 0 value diables the XSS filters when they detect reflected cross-site scripting (XSS) attacks.
+X-Frame-Option: SAMEORIGIN mean that the page can only be embedded in a frame on a page with the same origin as itself.
+X-Content-Type-Options: nons-niff  headers is used to protect against MIME sniffing vulnerabilities.
