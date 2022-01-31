@@ -1,2 +1,13 @@
-# CSC3916_HW0
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/19271678-be1784b4-e1f3-4bd1-8f86-ddd60882d13e?action=collection%2Ffork&collection-url=entityId%3D19271678-be1784b4-e1f3-4bd1-8f86-ddd60882d13e%26entityType%3Dcollection%26workspaceId%3D3ad13741-80f0-4550-bbda-c641a82d1697)
+# week1
+Create REPO CSC3916_HW0 <br/>
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token <br />
+
+git clone https://github.com/shawnmccarthy/week1.git <br/>
+rm -R -f .git <br/>
+git init <br/>
+git add remote https://github.com/YOUNAME/week1.git <br/>
+git add . <br/>
+git commit -m "first commit" <br/>
+git push origin main <br/>
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3701afbe3191ae18ab24)
